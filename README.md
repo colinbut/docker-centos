@@ -6,10 +6,15 @@ To use, just build the docker image
 
 To build the image:
 
+```
 docker build --tag [your repo]/[image name] .
+```
+
 To run the container:
 
+```
 docker run -p 8080:8080 -d [your repo]/[image name]
+```
 
 Can use image as a base for other applications that runs on Unix/Linux environments.
 
